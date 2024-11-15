@@ -1,0 +1,12 @@
+
+:root{
+    --background-white: #FFFFFF ;
+    --background-black: #08090A ;
+    --azulmarinho: #151C3A;
+    --azul: #4258FF;
+    --font: -webkit-font-smoothing: antialiased;
+    --font2: Playfair Display SC;
+}
+body{
+    background-color: var(--background-white);
+}

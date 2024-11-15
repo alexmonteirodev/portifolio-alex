@@ -1,0 +1,33 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* section 1 - presentation */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 750px;
+    flex-direction: column;
+    margin: auto;
+}
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 5vh;
+}
+#avatar{
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+}
+
+/* section 2 - about */
+
