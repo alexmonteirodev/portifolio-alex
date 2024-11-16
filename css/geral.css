@@ -100,3 +100,8 @@ h4{
 .projects{
     margin-top: 5vh;
 }
+
+.global-icon{
+    height: auto;
+    width: 20px;
+}
