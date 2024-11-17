@@ -6,7 +6,7 @@
     --azul: #4258FF;
     --font: -webkit-font-smoothing: antialiased;
     --font2: Playfair Display SC;
-    --border: #E5E5E5;
+    --border: #e5e7eb;
 }
 body{
     background-color: var(--background-white);
@@ -15,4 +15,14 @@ body{
     color: var(--background-white);
     background-color: var(--background-black);
 
+}
+
+.project-third-div p{
+    color: var(--background-black);
+    background-color: var(--border);
+}
+
+.link-project a{
+    color: var(--background-white);
+    background-color:var(--background-black);
 }
