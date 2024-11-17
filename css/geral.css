@@ -106,7 +106,9 @@ h4{
 .projects h2{
     text-align: center;
 }
-
+.projects-introduction p{
+    text-align: center;
+}
 
 #section-projects{
     margin-top: 5vh;
