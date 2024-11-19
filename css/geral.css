@@ -37,8 +37,21 @@ h4{
     height: 180px;
     border-radius: 60px;
 }
-
-
+/* .text-animation{
+    animation: typing 2.5s steps(23),
+                cursor .4s step-end infinite alternate;
+    width: 100%;
+    height: auto;
+    border-right: 4px solid;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from {width: 0px;}
+} */
 /* section 2 - about */
 .about{
     margin-top: 5vh;
