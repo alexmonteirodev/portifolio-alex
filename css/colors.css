@@ -7,7 +7,7 @@
     --font: -webkit-font-smoothing: antialiased;
     --font2: Playfair Display SC;
     --border: #e5e7eb;
-    --cinza: #737373
+    --cinza: #737373;
 }
 body{
     background-color: var(--background-white);
@@ -15,9 +15,7 @@ body{
 .technologies p{
     color: var(--background-white);
     background-color: var(--background-black);
-
 }
-
 .project-third-div p{
     color: var(--background-black);
     background-color: var(--border);
@@ -29,6 +27,10 @@ body{
 .link-project a{
     color: var(--background-white);
     background-color:var(--background-black);
+    border: 1px solid var(--background-black);
+}
+.link-project a:hover{
+    border: 1px solid var(--background-white);
 }
 .about p{
     color: var(--cinza);
@@ -49,4 +51,15 @@ body{
     color: var(--background-black);
     border: 2px solid var(--background-black);
     font-weight: bold;
+}
+#nav-content{
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 5px var(--border);
+    background-color: var(--background-white);
+}
+#nav-content a:hover{
+    background-color: var(--border);
+}
+.bar{
+    color: var(--border);
 }
