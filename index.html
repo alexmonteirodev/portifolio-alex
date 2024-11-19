@@ -8,7 +8,7 @@
 </head>
 <body>
     <main class="flex-container">
-        <section class="grid-section presentation">
+        <section class="grid-section presentation" id="home">
             <div>
                 <h1>Hey, I'm Alex!</h1>
                 <p>I'm a Frontend Developer_</p>
@@ -84,7 +84,7 @@
                 <p>UI&UX</p>
             </div>
         </section>
-        <section class="grid-section projects">
+        <section class="grid-section projects" id="projects">
             <div class="projects-introduction">
                 <h2>Check my latest work</h2>
                 <p>
@@ -198,15 +198,16 @@
     <div>
         <nav>
             <div id="nav-content">
-                <div id="home"><a href="#"><img src="imgs/svg/home-black.svg" alt="svg"></a></div>
+                <div id="home-nav"><a href="#home"><img src="imgs/svg/home-black.svg" alt="svg"></a></div>
                 <div class="bar">|</div>
-                <div id="projects-nav"><a href="#"><img src="imgs/svg/projetos-preto.svg" alt="svg"></a></div>
-                <div id="github"><a href="#"><img src="imgs/svg/github-preto.svg" alt="svg"></a></div>
-                <div id="linkedin"><a href="#"><img src="imgs/svg/linkedin-preto.svg" alt="svg"></a></div>
+                <div id="projects-nav"><a href="#projects"><img src="imgs/svg/projetos-preto.svg" alt="svg"></a></div>
+                <div id="github"><a href="https://github.com/alexmonteirodev" target="_blank"><img src="imgs/svg/github-preto.svg" alt="svg"></a></div>
+                <div id="linkedin"><a href="https://www.linkedin.com/in/alex-monteiro-630549315/" target="_blank"><img src="imgs/svg/linkedin-preto.svg" alt="svg"></a></div>
                 <div class="bar">|</div>
                 <div id="light-mode"><a href="#"><img src="imgs/svg/light-sun-black.svg" alt="svg" id="light"></a></div>
             </div>
         </nav>
+        <div id="blur"></div>
     </div>
 
     <script src="script.js"></script>

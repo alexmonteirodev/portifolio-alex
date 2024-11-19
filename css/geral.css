@@ -210,16 +210,12 @@ h4{
     padding-right: 20px;
     padding-left: 20px;
     font-size: .85rem;
-    border: none;
     cursor: pointer;
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .contact a:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
-    background-color: white; /* Altera a cor no hover */
-    color: black;
-    border: 2px solid black;
+    transform: scale(1.1);
     font-weight: bold;
     font-style: italic;
 }
@@ -250,32 +246,44 @@ nav{
     justify-content: space-evenly;
     bottom: 0;
     margin-bottom: 2.5vh;
-    gap: 15px;
-    padding: 15px;
+    gap: 6px;
+    padding: 8px;
     border-radius: 40px;
-    transition: transform .3s ease, background-color 0.3s ease;
+    transition: transform .2s ease, background-color 0.3s ease;
+    
 }
 #nav-content:hover{
     transform: scale(1.1);
+    display: flex;
 }
 #nav-content a{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    transition: transform .3s ease, background-color 0.3s ease;
-
+    /* transition: transform .3s ease, background-color 0.3s ease; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: margin 0.7s ease
 }
 #nav-content a:hover{
     border-radius: 100%;
-    width: 30px;
-    height: 30px;
     transform: scale(1.1);
-    font-style: italic;
+    margin-left: 12px;
+    margin-right: 12px;
+    /* margin-bottom: 10px; */
 }
 #nav-content img{
     width: 20px;
     height: 20px;
-    
+}
+.bar{
+    cursor: default;
+}
+#blur{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
 }

@@ -41,6 +41,9 @@ body{
 .projects p{
     color: var(--cinza);
 }
+.contact p{
+    color: var(--cinza);
+}
 .contact a{
     color: var(--background-white);
     background-color: var(--background-black);
@@ -53,8 +56,8 @@ body{
     font-weight: bold;
 }
 #nav-content{
-    border: 1px solid var(--border);
-    box-shadow: 0px 0px 5px var(--border);
+    border: 2px solid var(--border);
+    box-shadow: 0px 0px 3px var(--border);
     background-color: var(--background-white);
 }
 #nav-content a:hover{
@@ -63,3 +66,9 @@ body{
 .bar{
     color: var(--border);
 }
+#blur{
+    background-color: transparent;
+    box-shadow: 0px 0px 15px 20px rgba(251, 251, 251, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
