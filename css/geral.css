@@ -108,6 +108,7 @@ h4{
     padding-right: 20px;
     padding-left: 20px;
     font-size: .85rem;
+    cursor: default;
 }
 
 /* section 5 - projects */
@@ -170,6 +171,7 @@ h4{
     padding-right: 10px;
     padding-left: 10px;
     font-size: .7rem;    
+    cursor: default;
 }
 .link-project{
    display: flex;
