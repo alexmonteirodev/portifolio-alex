@@ -83,7 +83,7 @@ h4{
     width: 100%;
 }
 .logo-education{
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.363); 
+    box-shadow: 0px 0px 1.5px var(--background-black); 
     border-radius: 50%; 
     width: 45px;
     height: 45px;

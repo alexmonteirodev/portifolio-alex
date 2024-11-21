@@ -24,7 +24,7 @@ h1,h2,h3,h4,p{
     background-color: var(--border);
 }
 .logo-education{
-    border: 1px solid var(--cinza);
+    border: .5px solid var(--border);
 }
 
 .link-project a{
@@ -74,4 +74,6 @@ h1,h2,h3,h4,p{
     box-shadow: 0px 0px 20px 20px var(--background-white);
     border: 0px solid rgba(0, 0, 0, 0);
 }
-
+.data-value{
+    color: var(--cinza);
+}
