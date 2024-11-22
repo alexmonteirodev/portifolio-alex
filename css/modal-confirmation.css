@@ -1,0 +1,40 @@
+.modal-container-check{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container-check.ativo{
+    display: flex;
+}
+#modal-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 80px; /*para dar uma largura min e ele não ficar grudado*/
+}
+
+@keyframes modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0,-30px,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.ativo .modal{
+    animation: modal .3s forwards;
+}

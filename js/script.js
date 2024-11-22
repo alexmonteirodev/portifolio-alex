@@ -3,3 +3,6 @@ lightMode()
 
 import scrollSuave from "./modules/scroll-suave.js"
 scrollSuave()
+
+import initModal from "./modules/modal.js"
+initModal()

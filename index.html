@@ -187,7 +187,7 @@
         <section class="grid-section contact">
             <h2>Shall we turn ideas into reality?<br>Let’s talk!</h2>
             <p>I'm looking forward to meeting you!</p>
-            <span><a href="#">Say Hello!</a></span>
+            <span><a href="#" data-modal="abrir">Say Hello!</a></span>
         </section>
     </main>
 
@@ -209,6 +209,27 @@
         </nav>
         <div id="blur"></div>
     </div>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar">✕</button>
+            <form action="">
+                <label for="contato">Your preferred means of communication <span id="obrigatorio">*</span></label>
+                <input type="text" for="contato" id="contato" value="Enter your contact">
+
+                <label for="msg">Mensage</label>
+                <input type="text" for="msg" id="msg" value="You can type any message here...">
+
+                <div id="button-modal"><button type="submit">Submit</button></div>
+            </form>
+        </div>
+    </section>
+    <section class="modal-container-check" data-modal="container-check">
+        <div class="modal-check" id="modal-check">
+            <p>Sent</p>
+            <img src="imgs/svg/check.svg" alt="svg">
+        </div>
+    </section>
 
 <script type="module" src="js/script.js"></script>
 </body>
