@@ -74,3 +74,9 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 750px){
+    .modal{
+        max-width: 280px;
+        padding: 20px;
+    }
+}
