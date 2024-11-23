@@ -34,9 +34,9 @@
 }
 .fechar{
     position: absolute;
-    top: 0px;
+    top: 5px;
     right: 10px;
-    font-size: 1.2rem;
+    font-size: .9rem;
     cursor: pointer;
     border: none;
 }
@@ -47,9 +47,10 @@
     display: block;
     font-weight: bold;
     margin: 1rem 0 .5rem 0;
+    margin-top: 1rem;
 }
 .modal input{
-    width: 80%;
+    width: 100%;
     padding: .7rem .5rem;
     box-sizing: border-box;
 }
@@ -57,10 +58,11 @@
     display: block;
     border-radius: 8px;
     padding: .7rem .5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-weight: normal;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
 .modal button[type="submit"]:hover {
     transform: scale(1.1);
@@ -77,8 +79,7 @@
         padding: 10px;
     }
     .modal input{
-        width: 80%;
-        box-sizing: border-box;
-        margin-left: 1px;
+      font-size: 1rem;
+      color: red;  
     }
 }
