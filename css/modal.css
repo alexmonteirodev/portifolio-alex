@@ -45,7 +45,7 @@
 }
 .modal label{
     display: block;
-    font-weight: bold;
+    font-weight:500;
     margin: 1rem 0 .5rem 0;
     margin-top: 1rem;
 }
@@ -53,6 +53,7 @@
     width: 100%;
     padding: .7rem .5rem;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 .modal button[type="submit"]{
     display: block;

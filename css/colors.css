@@ -108,6 +108,10 @@ label{
 #msg{
     color: var(--cinza);
 }
+.modal input{
+    background-color: var(--border);
+    border: 1px solid var(--border);
+}
 /*modal check*/
 #modal-check{
     background-color: var(--border);
