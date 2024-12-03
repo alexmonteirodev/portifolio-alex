@@ -24,7 +24,7 @@ export default function initModal() {
         });
     }
 
-    // Limpar valor do input apenas no primeiro foco
+    //Limpar valor do input apenas no primeiro foco
     const inputs = document.querySelectorAll('input');
     inputs.forEach((input) => {
         input.addEventListener('focus', () => {
